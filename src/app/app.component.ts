@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'converter';
+  dollar:any;
+  updated:any;
+
+  changeToRupees(){
+    this.updated = this.dollar*77.55
+  }
 }
+
